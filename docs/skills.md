@@ -1,0 +1,13 @@
+# My Skillset
+-   Exploratory data analysis (EDA)
+-	Python (Dataframes, NumPy) / Machine learning / deep learning (scikit learn, TensorFlow) 
+-   Visualization tools  - Tableau, Matplotlib, Seaborn, Plotly 
+-	MLOps 
+-	Web scraping 
+-	LLM & RAG based models & building AI agents
+-	Django framework
+-	SUSE Linux/shell scripting, OS Security hardening
+-	Teradata BAR solution (Netbackup/DSA)
+-	Teradata Query & database performance optimization
+-	Teradata QG & Data mover configuration 
+-	DTU & NPARC DMS tool (TD internal developed for data migrations), NetBackup, Netvault
