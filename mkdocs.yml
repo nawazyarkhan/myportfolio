@@ -60,14 +60,14 @@ plugins:
   # REMOVE this line below – it's incorrect and causes errors
   # - mkdocs-material
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/aammartufail
-    - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/aammar-tufail
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/aammar_tufail
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github
+#       link: https://github.com/aammartufail
+#     - icon: fontawesome/brands/linkedin
+#       link: https://linkedin.com/in/aammar-tufail
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/aammar_tufail
 
 # Optional GitHub repo integration (uncomment when needed)
 # repo_url: https://github.com/aammartufail/portfolio

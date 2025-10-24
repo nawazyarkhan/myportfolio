@@ -24,7 +24,7 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Analyst**/**Data Scientist**/**ML Eng
 
 ## 💼 Work Experience
 ### **PS Consultant**  
-📍 Teradata UK Pvt Limited, June/2022 - Present  
+📍 Teradata UK Pvt Limited, Jun2022 - Present  
   🔹  **LLOYDS data migration Project** – I have been actively involved with the data migration project using various data migration related tasks. I have been tasked to optimize queries involved in using big tables where I have managed to optimize by changing the table DDLs and optimizing queries which helped to reduce the CPU & IO.                                                                                  
    
   🔹  **HSBC Cloud Project** – I have been tasked to configure the Query Grid in the cloud. HSBC has got multiple systems both on-prem & cloud making it one of the most complex configurations and I have been able to successfully configure & test the QueryGrid. Also, I have been given the task to configure the data mover across 5 systems in cloud. 
@@ -42,23 +42,23 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Analyst**/**Data Scientist**/**ML Eng
 
 
 ### **Data Migrations technical Team lead**  
-📍 Teradata UK Pvt Limited, Dec2020 – Jun2022 
+📍 Teradata UK Pvt Limited      Dec2020 – Jun2022 
   🔹 I have been promoted as team lead of the team providing consultancy/pre-sales support and  implementations of data migrations. As a team lead, I’m acting as technical mentor for the team, doing the project assignments as well as handling complex migration projects in the EMEA region. Currently focused on doing migrations from on-prem to cloud systems which is in line with focus of moving to cloud. 
 
 ### **Data Migration/ BAR consultant**  
-📍 Teradata UK Pvt Limited, Aug2018 - Dec2020 
+📍 Teradata UK Pvt Limited      Aug2018 - Dec2020 
   🔹 I have been promoted as team lead of the team providing consultancy/pre-sales support and  implementations of data migrations. As a team lead, I’m acting as technical mentor for the team, doing the project assignments as well as handling complex migration projects in the EMEA region. Currently focused on doing migrations from on-prem to cloud systems which is in line with focus of moving to cloud. 
 
-  ### **Change Control Specialist**  
-📍 Teradata UK Pvt Limited, Jul2016 - Aug2018 
+### **Change Control Specialist**  
+📍 Teradata UK Pvt Limited      Jul2016 - Aug2018 
   🔹 I've worked as part of the regional International Change control team as a change control specialist who is responsible for all major/minor Teradata upgrades/configuration changes/expansion etc in the International Region (UK/Europe, Middle East/Africa/Asia Pacific etc) . I have also been involved with Hadoop upgrades. 
 
-  ### **Senior Systems Engineer / Technical Account Manager**  
-📍 Teradata UK Pvt Limited, Mar2011 - Jul2016  
+### **Senior Systems Engineer / Technical Account Manager**  
+📍 Teradata UK Pvt Limited      Mar2011 - Jul2016  
   🔹 I have been involved with Minor, Major Teradata upgrades, and Teradata hardware    expansions/merge activities. I have an extensive hardware & software support experience on  66xx, 67xx, 27xx, 2800, 52xx, 53xx, 54xx, 55xx, 56xx, 66xx, 26xx, 25xx, etc. & various LSI  platforms 684x.Also, have an extensive hands-on experience on ECO systems (TMSM, Viewpoint and Datamover) upgrades.
    
-   ### **Senior Systems Engineer / Technical Account Manager**  
-📍 NCR/Teradata Corporation, Lahore, Pakistna Sep2000 - Mar2011 
+### **Senior Systems Engineer / Technical Team Lead**  
+📍 NCR/Teradata Corporation, Pakistan   Sep2000 - Mar2011 
  🔹I have worked as “Senior Systems Engineer/Technical Team lead” based in Lahore providing onsite support to critical customers as well as remote support/2nd level of support to the local team of CSRs on various support calls. During tenure of last 11 years, I have done many critical installations/expansions/upgrades of DWH systems at various customer sites like Mobilink DWH, Bank Alfalah DWH, Ufone DWH, ACBL DWH, ITDPunjab DWH, RBL DWH, ZTE-PTCL DWH, Telenor DWH, & Telenor and Bahria Town Call Centers. I have also been involved with the Netvault/Netbackup installation & configuration, ACSLS, Storagetek tape libraries like L180, SL500 at various sites in Pakistan. Have successfully done the netvault Installation, SAN switch configuration at one of the biggest customers in Pakistan (Mobilink). Have also done a data migration using tapes in a netvault environment in Bank Alfalah Karachi Pakistan.  
 
 
