@@ -86,6 +86,7 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Analyst**/**Data Scientist**/**ML Eng
 -	Supervised Machine Learning: Regression and Classification from Coursera
 -	Advanced Learning Algorithms from Coursera
 -	Unsupervised Learning, Recommenders, Reinforcement Learning from Coursera
+-   Data Science and AI Mentorship Program (DSAAMP) from codanics.com
 -	Data analytics boot camp University of Birmingham
 -	Vantage Associate 2.3 Certified
 -	Vantage cloud lake certified associate
