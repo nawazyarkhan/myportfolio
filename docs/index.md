@@ -9,6 +9,7 @@ For full list of projects and repositories visit: [My GitHub Profile](https://gi
 ## My Social Media Links
 - [LinkedIn](https://www.linkedin.com/in/nawaz-yar-khan) 
 - [facebook](https://www.facebook.com/nawaz.y.khan)
+- [twitter/x](https://x.com/nawazyarkhan)
 
 ## Project layout
-- project details are under [Projects](./projects.md)
+- My Projects related to Python, ML/AI are under [Projects](./projects.md)

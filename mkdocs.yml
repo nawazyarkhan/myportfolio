@@ -36,6 +36,8 @@ nav:
   - Projects Details:
       - Project 1: projects/project_1.md
       - Project 2: projects/project_2.md
+      - Project 3: projects/project_3.md
+      - Project 4: projects/project_4.md
   - Blogs: blogs.md
   - Skills: skills.md
   - Resume: resume.md
@@ -59,20 +61,6 @@ plugins:
   - search
   # REMOVE this line below – it's incorrect and causes errors
   # - mkdocs-material
-
-# extra:
-#   social:
-#     - icon: fontawesome/brands/github
-#       link: https://github.com/aammartufail
-#     - icon: fontawesome/brands/linkedin
-#       link: https://linkedin.com/in/aammar-tufail
-#     - icon: fontawesome/brands/twitter
-#       link: https://twitter.com/aammar_tufail
-
-# Optional GitHub repo integration (uncomment when needed)
-# repo_url: https://github.com/aammartufail/portfolio
-# repo_name: GitHub
-# edit_uri: edit/main/docs/
 
 extra_css:
   - stylesheets/extra.css  # Optional: Add your own CSS styles here
