@@ -1,4 +1,4 @@
-# Here are some of the projects done as part of post grad course at University of Birmingham & mentorship program (DSAAMP) at condanics:
+# Here are some of the projects done at UOB Data analytics bootcamp & DSAAMP course at condanics:
 
 ### Personal portfolio using mkdocs  
 > Description:

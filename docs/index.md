@@ -2,7 +2,7 @@
 	<img src="images/MyPic_2_21Aug25.png" alt="Profile picture" width="220" />
 </p>
 
-# Welcome to the My Portfolio Page
+# Welcome to My Portfolio Page
 
 For full list of projects and repositories visit: [My GitHub Profile](https://github.com/nawazyarkhan).
 
