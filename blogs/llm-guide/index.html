@@ -518,7 +518,9 @@
 <li>Code completion, refactoring, and developer tooling.</li>
 </ul>
 <h4 id="example-prompt">Example prompt<a class="headerlink" href="#example-prompt" title="Permanent link">&para;</a></h4>
-<p>"Summarize the following text in 5 bullets focusing on action items and risks: &lt;<text>&gt;"</p>
+<p>"Summarize the following text in 5 bullets focusing on action items and risks:"</p>
+<div class="highlight"><pre><span></span><code>The product launch was delayed three weeks due to supplier shortages. The engineering team recommends increasing vendor redundancy and adding a safety stock. Marketing timelines will shift and customer communications must be prepared. The finance team should review budget for expedited shipping options.
+</code></pre></div>
 <hr />
 <h3 id="anthropic-claude">Anthropic — Claude<a class="headerlink" href="#anthropic-claude" title="Permanent link">&para;</a></h3>
 <h4 id="strengths_1">Strengths<a class="headerlink" href="#strengths_1" title="Permanent link">&para;</a></h4>
@@ -721,11 +723,54 @@
 </ol>
 <h2 id="practical-prompts-examples">Practical prompts (examples)<a class="headerlink" href="#practical-prompts-examples" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Summarization: "Summarize the following text in 5 bullets focusing on action items and risks: &lt;<text>&gt;"</li>
-<li>Classification (few-shot): "Label the sentiment of these examples (POS/NEG/NEUTRAL). Return JSON array of labels."</li>
-<li>RAG assistant: "Given the retrieved documents below and the user question, provide a concise answer and cite document IDs used."</li>
-<li>Code explanation: "Explain the following Python function in simple terms and suggest two tests for edge cases: &lt;<code>&gt;"</li>
+<li>Summarization: "Summarize the following text in 5 bullets focusing on action items and risks:"</li>
 </ul>
+<div class="highlight"><pre><span></span><code>The product launch was delayed three weeks due to supplier shortages. The engineering team recommends increasing vendor redundancy and adding a safety stock. Marketing timelines will shift and customer communications must be prepared. The finance team should review budget for expedited shipping options.
+</code></pre></div>
+<ul>
+<li>
+<p>Classification (few-shot): "Label the sentiment of these examples (POS/NEG/NEUTRAL). Return JSON array of labels."</p>
+<p>Example (few-shot input):</p>
+<div class="highlight"><pre><span></span><code>Example 1: &quot;I love the new update — the UI is so much cleaner and faster!&quot;
+Example 2: &quot;The product crashed three times today. Very disappointing experience.&quot;
+Example 3: &quot;The feature works as expected; nothing surprising either way.&quot;
+</code></pre></div>
+<p>Prompt instruction: "Label the sentiment of the examples above as POS, NEG, or NEUTRAL and return a JSON array of labels in the original order."</p>
+<p>Expected output (example):</p>
+<div class="highlight"><pre><span></span><code><span class="p">[</span><span class="s2">&quot;POS&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;NEG&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;NEUTRAL&quot;</span><span class="p">]</span>
+</code></pre></div>
+</li>
+<li>
+<p>RAG assistant: "Given the retrieved documents below and the user question, provide a concise answer and cite document IDs used."</p>
+<p>Example (retrieved docs + question):</p>
+<div class="highlight"><pre><span></span><code>[DOC_1] Title: Supplier report
+Content: &quot;Supplier A reported delays in shipments for component X due to raw material shortages.&quot;
+
+[DOC_2] Title: Engineering notes
+Content: &quot;Team recommends increasing vendor redundancy and maintaining a two-week safety stock.&quot;
+
+User question: &quot;Why was the product launch delayed and what should we do next?&quot;
+</code></pre></div>
+<p>Prompt instruction: "Answer concisely using the retrieved documents. Cite the document IDs (e.g., DOC_1, DOC_2) used for each statement."</p>
+<p>Example expected answer:</p>
+<div class="highlight"><pre><span></span><code>The launch was delayed due to supplier shortages for component X (DOC_1). Recommended next steps: increase vendor redundancy and maintain a two-week safety stock to mitigate future delays (DOC_2).
+</code></pre></div>
+</li>
+<li>
+<p>Code explanation: "Explain the following Python function in simple terms and suggest two tests for edge cases:"</p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="k">def</span><span class="w"> </span><span class="nf">is_prime</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Return True if n is a prime number, otherwise False.&quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">2</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">*</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="n">n</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">n</span> <span class="o">%</span> <span class="n">i</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">False</span>
+        <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="kc">True</span>
+</code></pre></div>
 <h2 id="operational-checklist-engineering">Operational checklist (engineering)<a class="headerlink" href="#operational-checklist-engineering" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Start with a small POC to measure latency, cost, and hallucination rates.</li>
