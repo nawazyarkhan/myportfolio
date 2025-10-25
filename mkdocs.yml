@@ -33,11 +33,11 @@ theme:
 nav:
   - Home: index.md
   - Projects: projects.md
-  - Projects Details:
-      - Project 1: projects/project_1.md
-      - Project 2: projects/project_2.md
-      - Project 3: projects/project_3.md
-      - Project 4: projects/project_4.md
+  # - Projects Details:
+      # - Project 1: projects/project_1.md
+      # - Project 2: projects/project_2.md
+      # - Project 3: projects/project_3.md
+      # - Project 4: projects/project_4.md
   - Blogs: blogs.md
   - Skills: skills.md
   - Resume: resume.md
