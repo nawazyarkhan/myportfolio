@@ -493,66 +493,124 @@
 
 
 <h1 id="a-practical-guide-to-large-language-models-llms-strengths-best-uses">A Practical Guide to Large Language Models (LLMs) — Strengths &amp; Best Uses<a class="headerlink" href="#a-practical-guide-to-large-language-models-llms-strengths-best-uses" title="Permanent link">&para;</a></h1>
-<p>TL;DR: This post compares major LLM families (OpenAI GPT, Anthropic Claude, Google Gemini/PaLM, Meta Llama, Mistral, Falcon/MPT, and other alternatives), explains their strengths and weaknesses, and recommends which to choose for chat assistants, code, RAG, on-device inference, and cost-sensitive workflows.</p>
+<p>This post compares major LLM families (OpenAI GPT, Anthropic Claude, Google Gemini/PaLM, Meta Llama, Mistral, Falcon/MPT, and other alternatives), explains their strengths and weaknesses, and recommends which to choose for chat assistants, code, RAG, on-device inference, and cost-sensitive workflows.</p>
 <h2 id="why-this-guide">Why this guide<a class="headerlink" href="#why-this-guide" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Inputs: You need to pick an LLM for a concrete task (chatbot, summarization, code assistant, RAG, or self-hosting).</li>
 <li>Outputs: Short list of recommended models, strengths/weaknesses, example prompts, and a quick decision checklist.</li>
 </ul>
-<h2 id="quick-model-by-model-summary">Quick model-by-model summary<a class="headerlink" href="#quick-model-by-model-summary" title="Permanent link">&para;</a></h2>
+<h2 id="model-by-model-guide">Model-by-model guide<a class="headerlink" href="#model-by-model-guide" title="Permanent link">&para;</a></h2>
+<h3 id="openai-gpt-4-gpt-35">OpenAI — GPT-4 / GPT-3.5<a class="headerlink" href="#openai-gpt-4-gpt-35" title="Permanent link">&para;</a></h3>
+<h4 id="strengths">Strengths<a class="headerlink" href="#strengths" title="Permanent link">&para;</a></h4>
 <ul>
-<li>OpenAI — GPT-4 / GPT-3.5</li>
-<li>Strengths: Best-in-class instruction following, reasoning, code generation, rich SDKs and plugin ecosystems.</li>
-<li>Weaknesses: Cost and vendor lock-in; data residency concerns for sensitive data.</li>
-<li>
-<p>Best uses: Production chat assistants, code generation, high-quality summarization, RAG generation.</p>
-</li>
-<li>
-<p>Anthropic — Claude</p>
-</li>
-<li>Strengths: Safety-focused, strong instruction following in multi-turn dialogues.</li>
-<li>Weaknesses: Conservative responses at times, smaller ecosystem vs OpenAI.</li>
-<li>
-<p>Best uses: Customer support assistants, internal knowledge-base chatbots where safety is essential.</p>
-</li>
-<li>
-<p>Google — PaLM / Gemini</p>
-</li>
-<li>Strengths: Multimodal capabilities and tight Google Cloud integration.</li>
-<li>Weaknesses: Ecosystem lock-in; pricing varies.</li>
-<li>
-<p>Best uses: Multimodal apps, enterprises on Google Cloud, search-enhanced tasks.</p>
-</li>
-<li>
-<p>Meta — Llama (2/3)</p>
-</li>
-<li>Strengths: Open weights, easy fine-tuning and self-hosting, strong community tooling.</li>
-<li>Weaknesses: May trail top proprietary models on some benchmarks.</li>
-<li>
-<p>Best uses: Self-hosted assistants, fine-tuning on private corpora, privacy-sensitive deployments.</p>
-</li>
-<li>
-<p>Mistral</p>
-</li>
-<li>Strengths: Strong open-source performance, efficiency-focused models.</li>
-<li>Weaknesses: Newer ecosystem; tooling still maturing.</li>
-<li>
-<p>Best uses: Cost-effective inference, on-prem quantized deployments.</p>
-</li>
-<li>
-<p>Falcon / MPT</p>
-</li>
-<li>Strengths: Open models suitable for experimentation and domain fine-tuning.</li>
-<li>Weaknesses: Mixed benchmark results; may need engineering effort for production.</li>
-<li>
-<p>Best uses: Research, domain-specific fine-tuning, cost-conscious self-hosting.</p>
-</li>
-<li>
-<p>Cohere, Aleph Alpha, and other providers</p>
-</li>
-<li>Strengths: Alternative APIs, multilingual support, embeddings, and classification features.</li>
-<li>Best uses: Embeddings, classification, and non-US-centric multilingual tasks.</li>
+<li>Best-in-class instruction following, reasoning, and code generation.</li>
+<li>Rich SDKs, plugins, and production-ready tooling.</li>
 </ul>
+<h4 id="weaknesses">Weaknesses<a class="headerlink" href="#weaknesses" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Higher cost and vendor lock-in.</li>
+<li>Data residency and privacy concerns for sensitive data.</li>
+</ul>
+<h4 id="best-uses">Best uses<a class="headerlink" href="#best-uses" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Production chat assistants that need tool use and high reliability.</li>
+<li>High-quality summarization, content generation, and RAG generation.</li>
+<li>Code completion, refactoring, and developer tooling.</li>
+</ul>
+<h4 id="example-prompt">Example prompt<a class="headerlink" href="#example-prompt" title="Permanent link">&para;</a></h4>
+<p>"Summarize the following text in 5 bullets focusing on action items and risks: &lt;<text>&gt;"</p>
+<hr />
+<h3 id="anthropic-claude">Anthropic — Claude<a class="headerlink" href="#anthropic-claude" title="Permanent link">&para;</a></h3>
+<h4 id="strengths_1">Strengths<a class="headerlink" href="#strengths_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Safety-by-design and robust instruction following in long dialogues.</li>
+</ul>
+<h4 id="weaknesses_1">Weaknesses<a class="headerlink" href="#weaknesses_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Responses can be conservative; smaller community ecosystem than OpenAI.</li>
+</ul>
+<h4 id="best-uses_1">Best uses<a class="headerlink" href="#best-uses_1" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Customer support assistants and internal knowledge-base chatbots where safety is essential.</li>
+</ul>
+<h4 id="example-prompt_1">Example prompt<a class="headerlink" href="#example-prompt_1" title="Permanent link">&para;</a></h4>
+<p>"You are a helpful, cautious assistant. If you are unsure, say what data you'd need to be certain."</p>
+<hr />
+<h3 id="google-palm-gemini">Google — PaLM / Gemini<a class="headerlink" href="#google-palm-gemini" title="Permanent link">&para;</a></h3>
+<h4 id="strengths_2">Strengths<a class="headerlink" href="#strengths_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Strong multimodal capabilities and integration with Google Cloud services.</li>
+</ul>
+<h4 id="weaknesses_2">Weaknesses<a class="headerlink" href="#weaknesses_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Ecosystem lock-in and variable pricing models.</li>
+</ul>
+<h4 id="best-uses_2">Best uses<a class="headerlink" href="#best-uses_2" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Multimodal applications (image+text) and enterprises already using GCP.</li>
+</ul>
+<h4 id="example-prompt_2">Example prompt<a class="headerlink" href="#example-prompt_2" title="Permanent link">&para;</a></h4>
+<p>"Analyze the attached image and list three business insights with supporting evidence from the image." </p>
+<hr />
+<h3 id="meta-llama-2-3">Meta — Llama (2 / 3)<a class="headerlink" href="#meta-llama-2-3" title="Permanent link">&para;</a></h3>
+<h4 id="strengths_3">Strengths<a class="headerlink" href="#strengths_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Open weights, suitable for fine-tuning and on-prem self-hosting.</li>
+</ul>
+<h4 id="weaknesses_3">Weaknesses<a class="headerlink" href="#weaknesses_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>May lag behind proprietary top-performers on some benchmarks.</li>
+</ul>
+<h4 id="best-uses_3">Best uses<a class="headerlink" href="#best-uses_3" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Self-hosted assistants, custom fine-tuning on proprietary data, and privacy-sensitive deployments.</li>
+</ul>
+<h4 id="example-prompt_3">Example prompt<a class="headerlink" href="#example-prompt_3" title="Permanent link">&para;</a></h4>
+<p>"You are a company-specific assistant. Given this product manual, answer the user's question and cite sections used." </p>
+<hr />
+<h3 id="mistral">Mistral<a class="headerlink" href="#mistral" title="Permanent link">&para;</a></h3>
+<h4 id="strengths_4">Strengths<a class="headerlink" href="#strengths_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Efficient open-source models with strong performance for their size.</li>
+</ul>
+<h4 id="weaknesses_4">Weaknesses<a class="headerlink" href="#weaknesses_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Ecosystem and tooling are newer and still maturing.</li>
+</ul>
+<h4 id="best-uses_4">Best uses<a class="headerlink" href="#best-uses_4" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Cost-effective inference and on-prem quantized deployments.</li>
+</ul>
+<h4 id="example-prompt_4">Example prompt<a class="headerlink" href="#example-prompt_4" title="Permanent link">&para;</a></h4>
+<p>"Generate a 3-paragraph overview of this research paper and list two follow-up experiments." </p>
+<hr />
+<h3 id="falcon-mpt">Falcon / MPT<a class="headerlink" href="#falcon-mpt" title="Permanent link">&para;</a></h3>
+<h4 id="strengths_5">Strengths<a class="headerlink" href="#strengths_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Flexible open models for experimentation and domain-specific fine-tuning.</li>
+</ul>
+<h4 id="weaknesses_5">Weaknesses<a class="headerlink" href="#weaknesses_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Mixed benchmark results; production readiness may need extra engineering.</li>
+</ul>
+<h4 id="best-uses_5">Best uses<a class="headerlink" href="#best-uses_5" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Research, domain fine-tuning, and custom workloads where licensing is favorable.</li>
+</ul>
+<h4 id="example-prompt_5">Example prompt<a class="headerlink" href="#example-prompt_5" title="Permanent link">&para;</a></h4>
+<p>"Fine-tune this model to perform product categorization; outline a minimal dataset and training plan." </p>
+<hr />
+<h3 id="cohere-aleph-alpha-and-other-providers">Cohere, Aleph Alpha, and other providers<a class="headerlink" href="#cohere-aleph-alpha-and-other-providers" title="Permanent link">&para;</a></h3>
+<h4 id="strengths_6">Strengths<a class="headerlink" href="#strengths_6" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Provider alternatives with good embeddings, multilingual support, and classification features.</li>
+</ul>
+<h4 id="best-uses_6">Best uses<a class="headerlink" href="#best-uses_6" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Embeddings, multilingual classification, and specialized provider integrations.</li>
+</ul>
+<h4 id="example-prompt_6">Example prompt<a class="headerlink" href="#example-prompt_6" title="Permanent link">&para;</a></h4>
+<p>"Return embeddings for these three documents and compute cosine similarities."</p>
 <h2 id="small-comparison-table">Small comparison table<a class="headerlink" href="#small-comparison-table" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
@@ -680,13 +738,6 @@
 <li>Safety: Add guardrails and human review for high-risk outputs.</li>
 <li>Licensing: Check open-model licenses before commercial use.</li>
 </ul>
-<h2 id="suggested-next-steps">Suggested next steps<a class="headerlink" href="#suggested-next-steps" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Run a quick benchmark with 100 representative requests for cost/latency estimates.</li>
-<li>If you want, I can add a short comparison CSV or a small chart to visualize cost vs accuracy trade-offs.</li>
-</ul>
-<hr />
-<p>If you'd like, I can also add a link to this new post from your main <code>blogs.md</code> or create a landing index under <code>docs/blogs/index.md</code>.</p>
 
 
 

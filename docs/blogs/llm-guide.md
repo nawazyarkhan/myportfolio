@@ -30,7 +30,11 @@ This post compares major LLM families (OpenAI GPT, Anthropic Claude, Google Gemi
 - Code completion, refactoring, and developer tooling.
 
 #### Example prompt
-"Summarize the following text in 5 bullets focusing on action items and risks: <<text>>"
+"Summarize the following text in 5 bullets focusing on action items and risks:"
+
+```
+The product launch was delayed three weeks due to supplier shortages. The engineering team recommends increasing vendor redundancy and adding a safety stock. Marketing timelines will shift and customer communications must be prepared. The finance team should review budget for expedited shipping options.
+```
 
 ---
 
@@ -156,10 +160,67 @@ This post compares major LLM families (OpenAI GPT, Anthropic Claude, Google Gemi
 6. Need to fine-tune: prefer open weights (Llama family, Mistral) or providers with fine-tuning APIs.
 
 ## Practical prompts (examples)
-- Summarization: "Summarize the following text in 5 bullets focusing on action items and risks: <<text>>"
+
+- Summarization: "Summarize the following text in 5 bullets focusing on action items and risks:"
+
+```text
+The product launch was delayed three weeks due to supplier shortages. The engineering team recommends increasing vendor redundancy and adding a safety stock. Marketing timelines will shift and customer communications must be prepared. The finance team should review budget for expedited shipping options.
+```
+
 - Classification (few-shot): "Label the sentiment of these examples (POS/NEG/NEUTRAL). Return JSON array of labels."
+
+    Example (few-shot input):
+
+    ```text
+    Example 1: "I love the new update — the UI is so much cleaner and faster!"
+    Example 2: "The product crashed three times today. Very disappointing experience."
+    Example 3: "The feature works as expected; nothing surprising either way."
+    ```
+
+    Prompt instruction: "Label the sentiment of the examples above as POS, NEG, or NEUTRAL and return a JSON array of labels in the original order."
+
+    Expected output (example):
+
+    ```json
+    ["POS", "NEG", "NEUTRAL"]
+    ```
+
 - RAG assistant: "Given the retrieved documents below and the user question, provide a concise answer and cite document IDs used."
-- Code explanation: "Explain the following Python function in simple terms and suggest two tests for edge cases: <<code>>"
+
+    Example (retrieved docs + question):
+
+    ```text
+    [DOC_1] Title: Supplier report
+    Content: "Supplier A reported delays in shipments for component X due to raw material shortages."
+
+    [DOC_2] Title: Engineering notes
+    Content: "Team recommends increasing vendor redundancy and maintaining a two-week safety stock."
+
+    User question: "Why was the product launch delayed and what should we do next?"
+    ```
+
+    Prompt instruction: "Answer concisely using the retrieved documents. Cite the document IDs (e.g., DOC_1, DOC_2) used for each statement."
+
+    Example expected answer:
+
+    ```text
+    The launch was delayed due to supplier shortages for component X (DOC_1). Recommended next steps: increase vendor redundancy and maintain a two-week safety stock to mitigate future delays (DOC_2).
+    ```
+
+- Code explanation: "Explain the following Python function in simple terms and suggest two tests for edge cases:"
+
+```python
+def is_prime(n):
+    """Return True if n is a prime number, otherwise False."""
+    if n <= 1:
+        return False
+    i = 2
+    while i * i <= n:
+        if n % i == 0:
+            return False
+        i += 1
+    return True
+```
 
 ## Operational checklist (engineering)
 - Start with a small POC to measure latency, cost, and hallucination rates.
