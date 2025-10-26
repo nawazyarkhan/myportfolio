@@ -5,6 +5,10 @@
 > Created my portfolio website using python framework mkdocs.
 > project details/code can be found in my github repository https://github.com/nawazyarkhan/myportfolio
 
+### Sample portfolio using DJANGO  
+> Description:
+> Created my sample portfolio website using python framework DJANGO.
+> project details/code can be found in my github repository https://github.com/nawazyarkhan/nykPortfolio
 
 ### Local LLM to help answer user questions from provided text/PDF/doc files
 > Description:
