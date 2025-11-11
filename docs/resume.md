@@ -1,7 +1,7 @@
 # 📄 My Resume
 
 ## 👨‍💻 About Me
-Hi, I'm Nawaz Y. khan! A passionate **Data Analyst**/**Data Scientist**/**ML Engineer** with expertise in turning data into actionable insights. I thrive on solving complex problems and delivering data-driven solutions.
+Hi, I'm Nawaz Y. khan! A passionate **Data Engineer**/**Data Scientist**/**ML Engineer** with expertise in turning data into actionable insights. I thrive on solving complex problems and delivering data-driven solutions.
 
 - 📍 Location: Birmingham, UK
 - 📧 Email: nawazyarkhan@gmail.com
@@ -28,7 +28,7 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Analyst**/**Data Scientist**/**ML Eng
 📍 Apziva, Nov2025 - Present  
 
  🔹	Developed a machine learning solution to predict customer satisfaction for a logistics startup, improving prediction accuracy to ~73% by performing data preprocessing, EDA, feature engineering, and model optimization using scikit-learn, and delivering insights that enhanced customer retention strategies.
- 
+
   🔹Currently working on Term deposit Marketing project and the goal is to predict if client is subscribed to term deposit or not with a prediction accuracy of 81%. 
 
 
