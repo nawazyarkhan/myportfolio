@@ -1,4 +1,9 @@
-# Here are some of the projects done at UOB Data analytics bootcamp & DSAAMP course at condanics:
+# Here are some of the projects done as part of post grad course at University of Birmingham / mentorship program (DSAAMP) at condanics & as resident engineer at APZIVA:
+
+### Customer behaviour prediction in a logistics/delivery domain
+> Description:
+> Developed a machine learning solution to predict customer satisfaction for a logistics startup, improving prediction accuracy to ~73% by performing data preprocessing, EDA, feature engineering, and model optimization using scikit-learn, and delivering insights that enhanced customer retention strategies.
+> project details/code can be found in my github repository https://github.com/nawazyarkhan/EvG0OxbGO4xst3Jp
 
 ### Personal portfolio using mkdocs  
 > Description:
