@@ -23,8 +23,16 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Analyst**/**Data Scientist**/**ML Eng
 ---
 
 ## 💼 Work Experience
+
+### ** AI Resident Engineer
+📍 Apziva, Nov2025 - Present  
+
+ 🔹	Developed a machine learning solution to predict customer satisfaction for a logistics startup, improving prediction accuracy to ~73% by performing data preprocessing, EDA, feature engineering, and model optimization using scikit-learn, and delivering insights that enhanced customer retention strategies.
+  🔹Currently working on Term deposit Marketing project and the goal is to predict if client is subscribed to term deposit or not with a prediction accuracy of 81%. 
+
+
 ### **PS Consultant**  
-📍 Teradata UK Pvt Limited, Jun2022 - Present  
+📍 Teradata UK Pvt Limited, Jun2022 - Oct2025  
   🔹  **LLOYDS data migration Project** – I have been actively involved with the data migration project using various data migration related tasks. I have been tasked to optimize queries involved in using big tables where I have managed to optimize by changing the table DDLs and optimizing queries which helped to reduce the CPU & IO.                                                                                  
    
   🔹  **HSBC Cloud Project** – I have been tasked to configure the Query Grid in the cloud. HSBC has got multiple systems both on-prem & cloud making it one of the most complex configurations and I have been able to successfully configure & test the QueryGrid. Also, I have been given the task to configure the data mover across 5 systems in cloud. 
