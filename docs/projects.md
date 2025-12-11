@@ -1,6 +1,6 @@
-# Here is the summary of projects done so far:
+# <u>**Summary of Projects**</u>:
 
-## Projects done as AI resident Egineer in Apziva
+## <u>**Projects done as AI resident Egineer in Apziva**</u>
 ###  Term desposit subscription 
 > Description:
 > 	Built an end-to-end machine learning pipeline to predict term-deposit subscriptions, achieving ~96% model accuracy using CatBoost after evaluating multiple classification algorithms. Performed full data preprocessing, cleaning, EDA, and feature engineering. Optimized model performance through cross-validation, hyperparameter tuning, and algorithm comparison. Generated actionable feature-importance insights to identify key customer behaviour drivers and support targeted marketing strategies. Conducted statistical analysis and customer segmentation to discover high-conversion customer groups and improve marketing decision-making.  Delivered a reproducible workflow with modular, well-documented Python code, supporting scalability and future deployment
@@ -11,7 +11,7 @@
 > Developed a machine learning solution to predict customer satisfaction for a logistics startup, improving prediction accuracy to ~73% by performing data preprocessing, EDA, feature engineering, and model optimization using scikit-learn, and delivering insights that enhanced customer retention strategies.
 > project details/code can be found in my github repository **https://github.com/nawazyarkhan/HappyCustomerLogistics**
 
-## Projects done as part of engagement in codanics
+## <u>**Projects done as part of engagement in codanics**</u>
 
 ### Personal portfolio using mkdocs  
 > Description:
@@ -41,7 +41,7 @@
 > Details/code can be found under github repository **https://github.com/nawazyarkhan/classification_algorithms_comparison**
 
 
-## Projects done during the course at UOB 
+## <u>**Projects done during the course at UOB**</u>
 ### Credit risk evaluator using logistic regression & random forest 
 > Description:
 > This project involves analyzing and predicting a provided dataset of loan applicants to evaluate & predict the risk involved in loan approval.
