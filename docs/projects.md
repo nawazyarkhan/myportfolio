@@ -49,7 +49,7 @@
 ### comparison of various classification algorithms @codanics
 > Description:
 > This is a comparison of different classification algorithms (decision tree, random forest, XGBoost) performance using the diamonds dataset from seaborn.
-> Details/code can be found under github repository <link>**https://github.com/nawazyarkhan/classification_algorithms_comparison**</link>
+> Details/code can be found under github repository [https://github.com/nawazyarkhan/classification_algorithms_comparison](https://github.com/nawazyarkhan/classification_algorithms_comparison)
 
 
 ## <u>**Projects done during the course at UOB**</u>
