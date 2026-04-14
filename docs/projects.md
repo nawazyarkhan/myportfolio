@@ -2,6 +2,9 @@
 
 ## <u>**Projects done as AI resident Egineer in Apziva**</u>
 
+### Monreader - an app to help blind in reading
+> Description:
+> 	Developed a deep learning-based computer vision solution (MonReader) to detect page flipping from image sequences, enabling assistive reading workflows for visually impaired users. Built and evaluated multiple CNN architectures including ResNet18, EfficientNet, and a custom TinyVGG using PyTorch. Implemented sequence-level prediction logic using frame aggregation (threshold and ratio-based detection) to improve robustness. Applied transfer learning, fine-tuning, and early stopping to optimise model performance and reduce overfitting. Created evaluation pipelines and visualisation tools to compare model performance across different datasets and configurations.
 ### Potential Talent Hunt
 > Description:
 > 	Built an end-to-end AI-driven talent search and ranking system using modern ML and MLOps practices. Implemented a FastAPI backend with semantic search powered by FAISS and sentence transformers, enabling high-performance vector similarity search. Developed an interactive Gradio GUI for user querying and result visualization. Containerized the application with Docker and deployed it to AWS ECS (Fargate) using a Docker Hub image, supporting scalable REST endpoints and production-grade serving. Led exploratory data analysis and model experimentation in Jupyter notebooks, including embedding workflows and ranking logic making use of FastAPI, FAISS, sentence-transformers, Gradio, Docker, AWS ECS, Python, vector search, NLP.
