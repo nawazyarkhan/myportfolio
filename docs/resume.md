@@ -99,7 +99,7 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Engineer**/**Data Scientist**/**ML En
 ## 🛠️ Skills
 
 -   Exploratory data analysis (EDA)
--	Python (Dataframes, NumPy) / Machine learning / deep learning (scikit learn, TensorFlow) 
+-	Python (Dataframes, NumPy) / Machine learning / deep learning (scikit learn, TensorFlow, PyTorch) 
 -   Visualization tools  - Tableau, Matplotlib, Seaborn, Plotly 
 -	MLOps 
 -	Web scraping 

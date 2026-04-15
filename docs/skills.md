@@ -1,6 +1,6 @@
 # My Skillset
 -   Exploratory data analysis (EDA)
--	Python (Dataframes, NumPy) / Machine learning / deep learning (scikit learn, TensorFlow) 
+-	Python (Dataframes, NumPy) / Machine learning / deep learning (scikit learn, TensorFlow, PyTorch) 
 -   Visualization tools  - Tableau, Matplotlib, Seaborn, Plotly 
 -	MLOps 
 -	Web scraping 
