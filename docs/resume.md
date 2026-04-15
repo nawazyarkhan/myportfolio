@@ -4,9 +4,9 @@
 Hi, I'm Nawaz Y. khan! A passionate **Data Engineer**/**Data Scientist**/**ML Engineer** with expertise in turning data into actionable insights. I thrive on solving complex problems and delivering data-driven solutions.
 
 - 📍 Location: Birmingham, UK
-- 📧 Email: nawazyarkhan@gmail.com
-- 🌐 Portfolio: github.io/nawazyarkhan
-- 💼 LinkedIn: www.linkedIn.com/nawaz-yar-khan
+- 📧 Email: [nawazyarkhan](nawazyarkhan@gmail.com)
+- 🌐 GitHub: [Nawaz's GitHub Repo](https://github.com/nawazyarkhan)
+- 💼 LinkedIn: [Nawaz's LinkedIn](www.linkedIn.com/nawaz-yar-khan)
   
 
 ---
