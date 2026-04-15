@@ -13,11 +13,11 @@ Hi, I'm Nawaz Y. khan! A passionate **Data Engineer**/**Data Scientist**/**ML En
 
 ## 🎓 Education
 - **[B.Sc Electrical Engineering]**  
-    📍 University of Engineering & Technology Lahore, PK 1998  
+    📍 University of Engineering & Technology Lahore, Pakistan 1998  
     - Relevant Courses: Electrical & communications
   
 - **[PostGrad Diploma in Data Analytics]**  
-    📍 University of Birmingham, 2021  
+    📍 University of Birmingham, United Kingdom, 2021  
     - Relevant Courses: Data analytics/ ML
 
 ---
