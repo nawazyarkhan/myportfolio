@@ -11,6 +11,7 @@
 - Built and evaluated multiple CNN architectures (ResNet18, EfficientNet, TinyVGG) using PyTorch.
 - Implemented robust sequence-level prediction logic and advanced model optimization techniques.
 - Created evaluation pipelines and visualization tools for model comparison.
+- Achieved **99.84% accuracy** and **0.9983 macro F1-score** on a page classification task using transfer learning with ResNet-18, demonstrating high-performance computer vision modeling.
 - **Repo:** [MonreaderForBlind](https://github.com/nawazyarkhan/MonreaderForBlind)
 
 ### Potential Talent Hunt: AI-Driven Talent Search Platform
