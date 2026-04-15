@@ -1,61 +1,71 @@
-# <u>**Summary of Projects**</u>:
-
-## <u>**Projects done as AI resident Egineer in Apziva**</u>
-
-### Monreader - an app to help blind in reading
-> Description:
-> 	Developed a deep learning-based computer vision solution (MonReader) to detect page flipping from image sequences, enabling assistive reading workflows for visually impaired users. Built and evaluated multiple CNN architectures including ResNet18, EfficientNet, and a custom TinyVGG using PyTorch. Implemented sequence-level prediction logic using frame aggregation (threshold and ratio-based detection) to improve robustness. Applied transfer learning, fine-tuning, and early stopping to optimise model performance and reduce overfitting. Created evaluation pipelines and visualisation tools to compare model performance across different datasets and configurations.
- > Project details on my github repo: [https://github.com/nawazyarkhan/MonreaderForBlind](https://github.com/nawazyarkhan/MonreaderForBlind)
->
-### Potential Talent Hunt
-> Description:
-> 	Built an end-to-end AI-driven talent search and ranking system using modern ML and MLOps practices. Implemented a FastAPI backend with semantic search powered by FAISS and sentence transformers, enabling high-performance vector similarity search. Developed an interactive Gradio GUI for user querying and result visualization. Containerized the application with Docker and deployed it to AWS ECS (Fargate) using a Docker Hub image, supporting scalable REST endpoints and production-grade serving. Led exploratory data analysis and model experimentation in Jupyter notebooks, including embedding workflows and ranking logic making use of FastAPI, FAISS, sentence-transformers, Gradio, Docker, AWS ECS, Python, vector search, NLP.
- > Project details on github repo: [https://github.com/nawazyarkhan/PotentialTalentHunt](https://github.com/nawazyarkhan/PotentialTalentHunt)
-> 
-###  Term desposit subscription 
-> Description:
-> 	Built an end-to-end machine learning pipeline to predict term-deposit subscriptions, achieving ~96% model accuracy using CatBoost after evaluating multiple classification algorithms. Performed full data preprocessing, cleaning, EDA, and feature engineering. Optimized model performance through cross-validation, hyperparameter tuning, and algorithm comparison. Generated actionable feature-importance insights to identify key customer behaviour drivers and support targeted marketing strategies. Conducted statistical analysis and customer segmentation to discover high-conversion customer groups and improve marketing decision-making.  Delivered a reproducible workflow with modular, well-documented Python code, supporting scalability and future deployment
- > Project details on my github repo: [https://github.com/nawazyarkhan/TermDepositMarketing](https://github.com/nawazyarkhan/TermDepositMarketing)
-
-### Customer behaviour prediction in a logistics/delivery domain 
-> Description:
-> Developed a machine learning solution to predict customer satisfaction for a logistics startup, improving prediction accuracy to ~73% by performing data preprocessing, EDA, feature engineering, and model optimization using scikit-learn, and delivering insights that enhanced customer retention strategies.
- > project details/code can be found in my github repo: [https://github.com/nawazyarkhan/HappyCustomerLogistics](https://github.com/nawazyarkhan/HappyCustomerLogistics)
-
-## <u>**Projects done as part of engagement in codanics**</u>
-
-### Personal portfolio using mkdocs  
-> Description:
-> Created my portfolio website using python framework mkdocs.
- > project details/code can be found in my github repository [https://github.com/nawazyarkhan/myportfolio](https://github.com/nawazyarkhan/myportfolio)
-
-### Sample portfolio using DJANGO  
-> Description:
-> Created my sample portfolio website using python framework DJANGO.
- > project details/code can be found in my github repository [https://github.com/nawazyarkhan/nykPortfolio](https://github.com/nawazyarkhan/nykPortfolio)
-
-### Local LLM to help answer user questions from provided text/PDF/doc files 
-> Description:
->   Created RAG based app using Ollama model llama3 that takes test/PDF/doc file as an input
->   using streamlit GUI.
-    >   Details can be found under github repository [https://github.com/nawazyarkhan/localRAG_AI)](https://github.com/nawazyarkhan/localRAG_AI)
 
 
-### Classification using deeplearning  
-> Description:
-> The non-profit foundation Alphabet Soup wants to create an algorithm to predict whether or not applicants for funding will be successful. With your knowledge of machine learning and neural networks, use the features in the provided dataset to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years.
-> Details/code can be found under github repository [https://github.com/nawazyarkhan/DeepLearningHomeWork](https://github.com/nawazyarkhan/DeepLearningHomeWork)
+# <u>Professional Project Portfolio</u>
 
-### comparison of various classification algorithms
-> Description:
-> This is a comparison of different classification algorithms (decision tree, random forest, XGBoost) performance using the diamonds dataset from seaborn.
-> Details/code can be found under github repository [https://github.com/nawazyarkhan/classification_algorithms_comparison](https://github.com/nawazyarkhan/classification_algorithms_comparison)
+---
 
+## AI Resident Engineer, Apziva
 
-## <u>**Projects done during the course at UOB**</u>
-### Credit risk evaluator using logistic regression & random forest 
-> Description:
-> This project involves analyzing and predicting a provided dataset of loan applicants to evaluate & predict the risk involved in loan approval.
-> Details/code can be found under my github repository [https://github.com/nawazyarkhan/SupervisedMachineLearningHomework](https://github.com/nawazyarkhan/SupervisedMachineLearningHomework)
+### MonReader: Assistive Reading for the Visually Impaired
+- Developed a deep learning-based computer vision solution to detect page flipping from image sequences, enabling assistive reading workflows for visually impaired users.
+- Built and evaluated multiple CNN architectures (ResNet18, EfficientNet, TinyVGG) using PyTorch.
+- Implemented robust sequence-level prediction logic and advanced model optimization techniques.
+- Created evaluation pipelines and visualization tools for model comparison.
+- **Repo:** [MonreaderForBlind](https://github.com/nawazyarkhan/MonreaderForBlind)
+
+### Potential Talent Hunt: AI-Driven Talent Search Platform
+- Designed and deployed an end-to-end AI talent search and ranking system using FastAPI, FAISS, and sentence-transformers.
+- Developed an interactive Gradio GUI for user queries and result visualization.
+- Containerized and deployed the solution on AWS ECS (Fargate) with Docker.
+- Led EDA, model experimentation, and MLOps workflows.
+- **Repo:** [PotentialTalentHunt](https://github.com/nawazyarkhan/PotentialTalentHunt)
+
+### Term Deposit Subscription Prediction
+- Built a machine learning pipeline to predict term-deposit subscriptions, achieving ~96% accuracy with CatBoost.
+- Performed data preprocessing, EDA, feature engineering, and model optimization.
+- Delivered actionable insights for targeted marketing and customer segmentation.
+- Produced modular, well-documented, and scalable Python code.
+- **Repo:** [TermDepositMarketing](https://github.com/nawazyarkhan/TermDepositMarketing)
+
+### Customer Satisfaction Prediction for Logistics
+- Developed a machine learning solution to predict customer satisfaction for a logistics startup, improving accuracy to ~73%.
+- Applied advanced data preprocessing, EDA, feature engineering, and model optimization using scikit-learn.
+- Delivered insights that enhanced customer retention strategies.
+- **Repo:** [HappyCustomerLogistics](https://github.com/nawazyarkhan/HappyCustomerLogistics)
+
+---
+
+## Projects with Codanics
+
+### Personal Portfolio (MkDocs)
+- Created a professional portfolio website using the Python MkDocs framework.
+- **Repo:** [myportfolio](https://github.com/nawazyarkhan/myportfolio)
+
+### Sample Portfolio (Django)
+- Developed a sample portfolio website using Django.
+- **Repo:** [nykPortfolio](https://github.com/nawazyarkhan/nykPortfolio)
+
+### Local LLM RAG App
+- Built a Retrieval-Augmented Generation (RAG) app using Ollama's Llama 3 model and Streamlit GUI.
+- Enables users to query local text/PDF/doc files with LLM-powered answers.
+- **Repo:** [localRAG_AI](https://github.com/nawazyarkhan/localRAG_AI)
+
+### Deep Learning Classification (Alphabet Soup)
+- Created a binary classifier to predict funding success for applicants using neural networks.
+- Processed and analyzed a dataset of 34,000+ organizations.
+- **Repo:** [DeepLearningHomeWork](https://github.com/nawazyarkhan/DeepLearningHomeWork)
+
+### Classification Algorithm Comparison
+- Compared decision tree, random forest, and XGBoost classifiers using the Seaborn diamonds dataset.
+- **Repo:** [classification_algorithms_comparison](https://github.com/nawazyarkhan/classification_algorithms_comparison)
+
+---
+
+## Academic Projects (University of Balochistan)
+
+### Credit Risk Evaluator
+- Analyzed and predicted loan applicant risk using logistic regression and random forest.
+- Delivered actionable insights for loan approval decisions.
+- **Repo:** [SupervisedMachineLearningHomework](https://github.com/nawazyarkhan/SupervisedMachineLearningHomework)
 
 
